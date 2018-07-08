@@ -177,8 +177,8 @@ class Slider extends React.Component{
 			<div className="slider">
 				<div
 					className="wrapper"
-					style={this.setSliderStyles()}
-					{this.renderSlides()}>
+					style={this.setSliderStyles()}>
+					{this.renderSlides()}
 				</div>
 
 				{this.renderArrows()}
